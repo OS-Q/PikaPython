@@ -28,3 +28,12 @@ MDK-ARM/RTE/
 !*.ioc
 !*.gitignore
 *RTE_Components.h
+*.pyi
+pikascript-api/
+pikascript-core/
+pikascript-lib/
+rust-msc-latest-win10.exe
+**/pikascript/*.py
+*.launch
+JLinkLog.txt
+.settings

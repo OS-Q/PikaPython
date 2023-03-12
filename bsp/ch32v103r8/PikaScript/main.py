@@ -2,7 +2,7 @@ import PikaStdLib
 import CH32V103
 
 mem = PikaStdLib.MemChecker()
-print('hello PikaScript !')
+print('Test CH32V103R8 PikaScript !')
 
 io1 = CH32V103.GPIO()
 io1.init()
@@ -14,3 +14,4 @@ io1.high()
 print(1.4)
 print('mem used max:')
 mem.max()
+

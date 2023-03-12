@@ -1,6 +1,3 @@
-<p align="center">
-	<img alt="logo" src="document/image/144221063-a85b2cb0-0416-493f-9afb-56cff31e977d.jpg" width="300">
-</p>
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">PikaPython</h1>
 <h4 align="center">Cross platform ultra lightweight embedded Python engine</h4>
 <p align="center">
@@ -21,12 +18,9 @@
 	<a href="https://space.bilibili.com/5365336/channel/detail?cid=202329">Videos</a> |
         <a href="../../tree/master/bsp#platform-support">BSP</a> |
 	<a href="https://pikadoc.readthedocs.io/en/latest/%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8%E4%B8%8E%E6%A8%A1%E5%9D%97%E7%AE%A1%E7%90%86.html">Package Manager</a> |
-	<a href="https://pikadoc.readthedocs.io/en/latest/%E4%BB%8E%20RT-Thread%20%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%BC%80%E5%A7%8B.html" >RT-Thread package</a> |
-	<a href="https://pikadoc.readthedocs.io/en/latest/%E5%A6%82%E4%BD%95%E5%8F%82%E4%B8%8E%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE.html" >Contribute</a> |
-	<a href="https://pikadoc.readthedocs.io/en/latest/%E5%95%86%E4%B8%9A%E5%90%88%E4%BD%9C%E6%96%B9%E5%BC%8F.html">Business</a> 
+	<a href="https://pikadoc.readthedocs.io/en/latest/%E4%BB%8E%20RT-Thread%20%E8%BD%AF%E4%BB%B6%E5%8C%85%E5%BC%80%E5%A7%8B.html" >RT-Thread package</a>
 </p>
 
-[![image](document/image/147997370-ff37b6e7-25b2-4174-aa64-c1fb92cede04.png)](https://pikastech.github.io/PikaPython/dev/bench/)
 
 # 1. Abstract
 
@@ -42,11 +36,6 @@ The Pre-compiler is fully open-source, and the source code is in the [tools](htt
 
 ![image-20220520233540245](document/image/image-20220520233540245.png)
 
-# Customized service
-
-We provide one-stop customized services for hardware, software, cloud platform and mass production to help customers complete products quickly, economically and reliably.
-
-Email us: liang6516@outlook.com
 
 # Get pikapython:
 
@@ -72,7 +61,7 @@ You can use [simulation project](https://pikadoc.readthedocs.io/en/latest/Keil%2
 
 ![image](https://user-images.githubusercontent.com/88232613/141252834-93011ca7-f84b-4192-8e61-0e242796f62c.png)
 
-The board based on STM32G030C8T6 MCU, only 64kB Flash, 8kB RAM can run pikapython with total peripheral device (GPIO、TIME、IIC、RGB、KEY、LCD、RGB). 
+The board based on STM32G030C8T6 MCU, only 64kB Flash, 8kB RAM can run pikapython with total peripheral device (GPIO、TIME、IIC、RGB、KEY、LCD、RGB).
 CH340 is deployed to support USB to serial with Type-C USB, support download python script py serial, there are 4 RGB on the board and support the [LCD](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-23991764791.12.16f97c58fsLjVk&id=660745643102).
 
 # Related Projects
@@ -199,7 +188,7 @@ Eazy to extern customized C moudles.
 
 Support linux.
 
-### (3)Syntax 
+### (3)Syntax
 
 Support subaggregate of python 3 standard syntax.
 
@@ -278,7 +267,7 @@ Support class and method define, encapsulation-inheritance-polymorphism and moud
 | Syntax | str | bytes | list |
 | --- | --- | --- | --- |
 | test[i] | √ | √ | √ |
-| test[a : b] | √ | √ | √ | 
+| test[a : b] | √ | √ | √ |
 | test[a :] | √ | √ | √ |
 
 #### Other keywords/Syntax
@@ -294,11 +283,7 @@ Readability first, nearly never use macro function and global argument.
 
 Complete unit testes based on google test.
 
-# 4.Both talk and show the code：
-
-## E-mail: liang6516@outlook.com
-
-# 5.Demo 
+# 4.Demo
 
 The scripts in demos are in the [examples](examples) folder.
 
@@ -412,7 +397,7 @@ while True:
     pwm.setDuty(0.5)
     time.sleep_ms(500)
     pwm.setDuty(0.001)
-    
+
 ```
 
 </details>
@@ -588,7 +573,6 @@ while True:
     elif key_val == 3:
         d = 3
         isUpdate = 1
-	
 
 ```
 
@@ -608,120 +592,6 @@ In addition to device drivers, developing custom Python modules for MCU is very 
 ## Rotating suns~
 ![Hnet-image (6)](document/image/132945107-e473a2cc-9fbc-47f9-aaed-a28d3ad1048c.gif)
 
-# 6.Test and develop Core
-
-## Test core in docker (recommend)
-[get start with docker](https://pikadoc.readthedocs.io/en/latest/get-start_linux.html)
-
-# ✨ Contributors
-
-<a href="https://github.com/pikastech/pikapython/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=pikastech/pikascript" />
-</a>
-
-## [How to contribute](https://pikadoc.readthedocs.io/en/latest/%E5%A6%82%E4%BD%95%E5%8F%82%E4%B8%8E%E7%A4%BE%E5%8C%BA%E8%B4%A1%E7%8C%AE.html)
-
-| Contributer | [Achivements](document/achivement.md) |
-| ----------------------------------------------------- | :----------------------------------------------------------- |
-| [甜航](https://github.com/easyzoom)                   | <img src="assets/26.png" alt="26" width="80" /> |
-| 千帆(微信名)                                          | <img src="assets/26.png" alt="26" width="80" /> |
-| [ Meco Jianting Man](https://github.com/mysterywolf)  | <img src="assets/22.png" alt="12" width="80" /><img src="assets/26.png" alt="26" width="80" /><img src="assets/23.png" alt="23" width="80" /><img src="assets/15.png" alt="15" width="80" /><img src="assets/11.png" alt="15" width="80" /><img src="assets/41.png" alt="41" width="80" />|
-| [liuduanfei](https://github.com/liuduanfei)           | <img src="assets/26.png" alt="26" width="80" /> |
-| [ sjy](https://gitee.com/shanjiayang)                 | <img src="assets/26.png" alt="26" width="80" /><img src="assets/13.png" alt="13" width="80" /> |
-| 沧御                                                  | <img src="assets/26.png" alt="26" width="80" /> |
-| [versaloon](https://github.com/versaloon)             | <img src="assets/26.png" alt="26" width="80" /><img src="assets/13.png" alt="13" width="80" /> |
-| 刘延(微信名)                                          | <img src="assets/36.png" alt="36" width="80" /><img src="assets/41-16594077379821.png" alt="41" width="80" /> |
-| [GorgonMeducer](https://github.com/GorgonMeducer)     | <img src="assets/25.png" alt="25" width="80" /><img src="assets/22.png" alt="22" width="80" /><img src="assets/21.png" alt="21" width="80" /><img src="assets/33.png" alt="33" width="80" /><img src="assets/41-16594077379821.png" alt="41" width="80" /> |
-| [unsigned](https://gitee.com/unsigned0)               | <img src="assets/26.png" alt="26" width="80" /><img src="assets/23.png" alt="23" width="80" /> |
-| [梦程MI](https://gitee.com/dreamcmi)                  | <img src="assets/36.png" alt="36" width="80" /><img src="assets/23.png" alt="23" width="80" /><img src="assets/41-16594077379821.png" alt="41" width="80" /> |
-| [Maximilian Gerhardt](https://github.com/maxgerhardt) | <img src="assets/12.png" alt="12" width="80" /> |
-| [purewind7](https://gitee.com/purewind7)              | <img src="assets/24.png" alt="24" width="80" /><img src="assets/31.png" alt="31" width="80" /><img src="assets/33.png" alt="33" width="80" /><img src="assets/41-16594077379821.png" alt="41" width="80" /> |
-| [ onceday](https://gitee.com/onceday)                 | <img src="assets/24.png" alt="24" width="80" /><img src="assets/13.png" alt="13" width="80" /> |
-
-
-<div class="log"></div>
-
-### Contribute Log On 2023
-
-| Contribute log | Contributer |
-| --- | --- |
-|implement shell filter | [GorgonMeducer](https://github.com/GorgonMeducer) |
-|修复socket模块在lwip中fcntl的参数数量错误|[梦程MI](https://gitee.com/dreamcmi) |
-|support GPIO pika_hal for BLMCU|[codercmd](https://gitee.com/codercmd)|
-|Fix Typo on PikaVM.c|[Ikko Eltociear Ashimine](https://gitee.com/eltociear)|
-|Fix type assert on dataArgs.c|[itschina](https://gitee.com/itschina)|
-|add examples/Device/KEY_POLL.PY|[codercmd](https://gitee.com/codercmd)|
-| hmac hashlib base64 aes modules | [梦程MI](https://gitee.com/dreamcmi) |
-|fix pikaCompiler build error on macos|[梦程MI](https://gitee.com/dreamcmi) |
-<details><summary> Contribute Log On 2022 </summary>
-
-| Contribute log | Contributer |
-| --- | --- |
-| request module | [onceday](https://gitee.com/onceday) |
-| mqtt module | [FlintJ](https://gitee.com/flintj) |
-| Donate：500¥ | [hardsofttech](https://gitee.com/hardsofttech) |
-| Donate：500¥ | [edmund_wz](https://gitee.com/edmund_wz) |
-| Donate：500¥ | [Meco Jianting Man](https://github.com/mysterywolf) |
-| Donate：500¥ | [hardsofttech](https://gitee.com/hardsofttech) |
-|PikaNN module| [Renzhihan](https://github.com/Renzhihan) |
-| re module | [eglwang](https://gitee.com/eglwang) |
-| PikaMath.Quaternion() | [purewind7](https://gitee.com/purewind7) |
-| contrubute to PikaCV | [purewind7](https://gitee.com/purewind7) |
-| xr806(openharmony) bsp |[sjy](https://gitee.com/shanjiayang)|
-| ESP32 package |沧御|
-| MM32F5277E9P package |[unsigned](https://gitee.com/unsigned0)|
-| mm32f5277e9p BSP |[unsigned](https://gitee.com/unsigned0)|
-| Add [CMSIS-PACK](https://pikadoc.readthedocs.io/en/latest/get-start_cmsis-pack.html) | [GorgonMeducer](https://github.com/GorgonMeducer) |
-| donate: air32f103 board * 20 | 合宙 [xinxi204](https://gitee.com/xinxi204) |
-| contrubute to PikaMath.Math() | [onceday](https://gitee.com/onceday) |
-| add support for Unix Time | [onceday](https://gitee.com/onceday) |
-| contrubute to PikaStdLib.String() | [purewind7](https://gitee.com/purewind7) |
-| Add [PLOOC](https://github.com/GorgonMeducer/PLOOC) support for pikapython Core | [GorgonMeducer](https://github.com/GorgonMeducer) |
-| Donate：500¥ (ctypes 相关) | 蒋太平 |
-| fix linux install script | [Maximilian Gerhardt](https://github.com/maxgerhardt) |
-| ch582 package | [梦程MI](https://gitee.com/dreamcmi) |
-| ch582 BSP | [梦程MI](https://gitee.com/dreamcmi) |
-| Donate：EC600X QuecPython Develop board| 移远通信 武加玉 |
-| Performance Point: 900->1400 | [GorgonMeducer](https://github.com/GorgonMeducer) |
-| stm32f051r8 BSP |[unsigned](https://gitee.com/unsigned0)|
-| stm32f407ze BSP |[unsigned](https://gitee.com/unsigned0)|
-| devc BSP |[unsigned](https://gitee.com/unsigned0)|
-| TC264D BSP |[unsigned](https://gitee.com/unsigned0)|
-| PikaVM improvement | [GorgonMeducer](https://github.com/GorgonMeducer) |
-| W801Device package | 刘延(微信名) |
-| W806 bsp | 刘延(微信名) |
-| Donate：ESP32C3 5pic，linker|启明云端 沧御|
-| Donate：LS1C101 mcu 10pic, LS1c101 develop board，debuger|龙芯俱乐部 石南|
-| PikaVSF OS package | [versaloon](https://github.com/versaloon) |
-| ESP32C3 BSP |沧御|
-
-</details>
-
-<details><summary> Contribute Log On 2021 </summary>
-
-| Contribute log | Contributer |
-| --- | --- |
-| Donate：ESP32 board、ink lcd*4 | name(微信名) |
-| Donate：smartloong board | 龙芯俱乐部 石南 |
-| package/STM32F1 | [sjy](https://gitee.com/shanjiayang) |
-| package/STM32F103RBBooter | [sjy](https://gitee.com/shanjiayang) |
-| bsp/stm32f103rb | [sjy](https://gitee.com/shanjiayang) |
-| QEMU ARM-2D simulation proejct | [liuduanfei](https://github.com/liuduanfei) |
-| Donate：GD32E103TB2 2 pic | 信息牛(微信名) |
-| Rt-thread bsp、port、module| [Meco Jianting Man](https://github.com/mysterywolf) |
-| Donate：EC600S-CN 4G| 移远模块 |
-| Donate：BL706 board|博流智能 [bouffalolab](https://github.com/bouffalolab)|
-| Donate：CM32M101A 开发板| 孟巍(微信名) |
-| Donate：APM32F030R8 board | 极海半导体 陈成 |
-| Donate：APM32E103VB board | 极海半导体 陈成 |
-| Donate：APEX-Link| 极海半导体 陈成 |
-| corde format，add gitattributes| [Meco Jianting Man](https://github.com/mysterywolf) |
-| demo/simulation-keil | 千帆(微信名) |
-| demo/stm32f103zet6/demo01-led-stm32f103zet6 | [甜航](https://github.com/easyzoom) |
-| demo/stm32f103zet6/demo02-led-stm32f103zet6_tworoot | [甜航](https://github.com/easyzoom) |
-| demo/stm32f407zgt/demo01-led-stm32f407vgt | [甜航](https://github.com/easyzoom) |
-
-</details>
 
 ## Star History
 
